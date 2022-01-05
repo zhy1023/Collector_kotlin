@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2019 Oray Inc. All rights reserverd.
+  ~  No Part of this file may be reproduced, stored
+  ~  in a retrieval system, or transmitted, in any form, or by any means,
+  ~  electronic, mechanical, photocopying, recording, or otherwise,
+  ~  without the prior consent of Oray Inc.
+  ~
+  ~  Author: ZY
+  ~  Create on:  20-1-8 上午11:27
+  ~  FileName:popwindow_anim_right_in.xml
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="200"
+        android:fillAfter="false"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="0%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+</set>

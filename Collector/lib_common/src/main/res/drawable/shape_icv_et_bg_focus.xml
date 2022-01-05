@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2019 Oray Inc. All rights reserverd.
+  ~  No Part of this file may be reproduced, stored
+  ~  in a retrieval system, or transmitted, in any form, or by any means,
+  ~  electronic, mechanical, photocopying, recording, or otherwise,
+  ~  without the prior consent of Oray Inc.
+  ~
+  ~  Author: ZY
+  ~  Create on:  19-7-25 下午4:40
+  ~  FileName:shape_icv_et_bg_focus.xml
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F2F2F2" />
+    <!-- 大小 -->
+    <size
+        android:width="25dp"
+        android:height="25dp" /><!-- 宽度和高度 -->
+    <corners android:radius="2dp" />
+
+    <stroke
+        android:width="1dp"
+        android:color="#A6D8EB"
+        />
+</shape>

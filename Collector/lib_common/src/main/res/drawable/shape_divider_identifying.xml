@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2019 Oray Inc. All rights reserverd.
+  ~  No Part of this file may be reproduced, stored
+  ~  in a retrieval system, or transmitted, in any form, or by any means,
+  ~  electronic, mechanical, photocopying, recording, or otherwise,
+  ~  without the prior consent of Oray Inc.
+  ~
+  ~  Author: ZY
+  ~  Create on:  19-7-25 下午4:47
+  ~  FileName:shape_divider_identifying.xml
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size
+        android:width="9dp"
+        android:height="9dp" />
+    <solid android:color="#00000000" />
+</shape>

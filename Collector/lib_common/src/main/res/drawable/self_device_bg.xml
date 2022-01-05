@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2019 Oray Inc. All rights reserverd.
+  ~  No Part of this file may be reproduced, stored
+  ~  in a retrieval system, or transmitted, in any form, or by any means,
+  ~  electronic, mechanical, photocopying, recording, or otherwise,
+  ~  without the prior consent of Oray Inc.
+  ~
+  ~  Author: ZY
+  ~  Create on:  20-3-11 上午11:31
+  ~  FileName:self_device_bg.xml
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="2dp"/>
+    <solid android:color="@color/app_colorPrimary"/>
+
+</shape>

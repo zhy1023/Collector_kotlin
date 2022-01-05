@@ -1,0 +1,14 @@
+<!--
+  ~  Copyright (c) 2020 Oray Inc. All rights reserverd.
+  ~  No Part of this file may be reprouced, stored
+  ~  in a retrieval system, or transmitted, in any form, or by any means,
+  ~  electronic, mechanical, photocopying, recording, or otherwise,
+  ~  without the prior consent of Oray Inc.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/seekbar_thumb_normal" android:state_focused="true" android:state_pressed="false" />
+    <item android:drawable="@drawable/seekbar_thumb_pressed" android:state_focused="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/seekbar_thumb_pressed" android:state_focused="false" android:state_pressed="true" />
+    <item android:drawable="@drawable/seekbar_thumb_normal" />
+</selector>

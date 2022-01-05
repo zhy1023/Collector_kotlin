@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_95">#0DFFFFFF</color>       <!--95%透明度-->
+    <color name="white_90">#1AFFFFFF</color>        <!--90%透明度-->
+    <color name="white_85">#26FFFFFF</color>        <!--85%透明度-->
+    <color name="white_80">#33FFFFFF</color>        <!--80%透明度-->
+    <color name="white_75">#40FFFFFF</color>        <!--75%透明度-->
+    <color name="white_70">#4DFFFFFF</color>        <!--70%透明度-->
+    <color name="white_65">#59FFFFFF</color>        <!--65%透明度-->
+    <color name="white_60">#66FFFFFF</color>        <!--60%透明度-->
+    <color name="white_55">#73FFFFFF</color>        <!--55%透明度-->
+    <color name="white_50">#80FFFFFF</color>        <!--50%透明度-->
+    <color name="white_45">#8CFFFFFF</color>        <!--45%透明度-->
+    <color name="white_40">#99FFFFFF</color>        <!--40%透明度-->
+    <color name="white_35">#A6FFFFFF</color>        <!--35%透明度-->
+    <color name="white_30">#B3FFFFFF</color>        <!--30%透明度-->
+    <color name="white_25">#BFFFFFFF</color>        <!--25%透明度-->
+    <color name="white_20">#CCFFFFFF</color>        <!--20%透明度-->
+    <color name="white_15">#D9FFFFFF</color>        <!--15%透明度-->
+    <color name="white_10">#E6FFFFFF</color>        <!--10%透明度-->
+    <color name="white_05">#F2FFFFFF</color>        <!--5%透明度-->
+
+
+    <!--标准本颜色区域 不受皮肤等级影响 start -->
+    <color name="bg_normal">#FFFFFF</color>
+    <color name="app_colorPrimary_default">#0078d7</color>
+    <color name="bg_colorPrimary_default">#047BD8</color>
+    <color name="bg_normal_level_default">#F7F7F7</color>
+
+    <!--标准本颜色区域 不受皮肤等级影响 end -->
+
+    <color name="app_colorPrimary">#0078d7</color>
+    <color name="bg_colorPrimary">#047BD8</color>
+    <color name="bg_customize">#33282828</color>
+    <color name="bg_bule">#037CDA</color>
+    <color name="bg_normal_level">#F7F7F7</color>
+    <color name="bg_lucency_level">#F20078d7</color>
+    <color name="text_color_level">#B9FF9F</color>
+    <color name="text_color_cancel_level">#057DD8</color>
+    <color name="text_color_crumbs_level">#0078d7</color>
+    <color name="text_color_tutorial">#FFFFFF</color>
+
+    <color name="bg_vertical_start">#0078d7</color>
+    <color name="bg_vertical_end">#32A4DE</color>
+    <color name="bg_button_start">#00B0ED</color>
+    <color name="bg_button_end">#0078d7</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_nomal">#FFFFFF</color>
+    <color name="bg_f3">#F3F3F3</color>
+    <color name="bg_f5">#E9EEF5</color>
+    <color name="bg_f7">#F7F7F7</color>
+    <color name="bg_e9">#E9EEF5</color>
+    <color name="bg_32">#32B4FF</color>
+    <color name="bg_03">#037CDA</color>
+    <color name="bg_8617">#17868686</color>
+    <color name="bg_f1">#F1F1F1</color>
+    <color name="bg_f6">#F1F3F6</color>
+    <color name="bg_f8">#F6F7F8</color>
+    <color name="bg_d6">#D6E8FF</color>
+    <color name="bg_c3">#269EAFC3</color>
+    <color name="bg_line_E8">#E8EAEE</color>
+    <color name="bg_line_CC">#CCCCCC</color>
+    <color name="bg_line_C7">#C7C7C7</color>
+    <color name="bg_line_D1">#D1D1D1</color>
+    <color name="bg_line_B1">#B1B1B1</color>
+    <color name="bg_line_DF">#DFDFDF</color>
+    <color name="bg_btn_cancel">#F9F9F9</color>
+    <color name="bg_gray">#ECECEC</color>
+    <color name="bg_gray_ed">#EDEDED</color>
+    <color name="bg_gray_e0">#E0E0E0</color>
+    <color name="bg_gray_df">#D4D9DF</color>
+    <color name="bg_ad">#adadad</color>
+    <color name="bg_fa">#fafafa</color>
+    <color name="bg_51">#FA5151</color>
+    <color name="bg_73">#73DA9E</color>
+    <color name="bg_8D">#FF8D8D</color>
+    <color name="white_ef">#efefef</color>
+    <color name="pop_background">#00000000</color>
+    <color name="text_color_66">#666666</color>
+    <color name="text_color_normal">#6A6A6A</color>
+    <color name="text_color_ca">#CACACA</color>
+    <color name="text_color_gray">#999999</color>
+    <color name="text_color_bkg">#5F7078</color>
+    <color name="text_color_title">#3A3A3A</color>
+    <color name="text_color_22">#222222</color>
+    <color name="text_color_33">#333333</color>
+    <color name="text_color_9A">#9A9A9A</color>
+    <color name="text_color_99">#999999</color>
+    <color name="text_color_9B">#9B9B9B</color>
+    <color name="text_color_C4">#C4C4C4</color>
+    <color name="text_color_FB">#FB444E</color>
+    <color name="text_color_FD">#FD5050</color>
+    <color name="text_color_2B">#FF2B2B</color>
+    <color name="text_color_87">#878787</color>
+    <color name="text_color_0E">#0E80DA</color>
+    <color name="text_color_1D">#1D83FF</color>
+    <color name="text_color_d7">#0078d7</color>
+    <color name="bg_search_vpn">#3797DF</color>
+    <color name="text_color_D8">#057DD8</color>
+    <color name="text_color_5B">#5B5B5B</color>
+    <color name="text_color_73">#73706B</color>
+    <color name="text_color_86">#17868686</color>
+    <color name="text_color_f6">#85C4F6</color>
+    <color name="text_color_9C">#537E9C</color>
+    <color name="btn_text_level">#85C4F6</color>
+    <color name="text_color_c9">#FFE5C9</color>
+    <color name="text_color_C9">#C9C9C9</color>
+    <color name="text_color_97">#979797</color>
+    <color name="text_color_D4">#D44A36</color>
+    <color name="text_color_FD4">#FD4F41</color>
+
+    <color name="text_backgroud_normal">#eae7e7</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#E6000000</color>
+    <color name="black_30">#B3000000</color>
+    <color name="black_49">#494949</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#66000000</color>
+    <color name="black_90">#1A000000</color>
+
+    <color name="image_overlay">#80000000</color>
+    <color name="image_un_overlay">#20000000</color>
+    <color name="scan_bound_color">#00574B</color>
+
+</resources>

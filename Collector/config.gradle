@@ -1,0 +1,90 @@
+/*
+ *  Copyright (c) 2019 Oray Inc. All rights reserverd.
+ *  No Part of this file may be reproduced, stored
+ *  in a retrieval system, or transmitted, in any form, or by any means,
+ *  electronic, mechanical, photocopying, recording, or otherwise,
+ *  without the prior consent of Oray Inc.
+ *
+ *  Author: ZY
+ *  Create on:  19-9-29 上午10:55
+ *  FileName:config.gradle
+ */
+
+ext {
+    isRelease = false
+    isGoogle = false
+
+    androidId = [
+            compileSdkVersion: 29,
+            buildToolsVersion: '30.0.2',
+            minSdkVersion    : 21,
+            targetSdkVersion : 29,
+            versionCode      : 27,
+            versionName      : "1.0.0"
+    ]
+
+    appId = [
+            applicationId          : "com.zhy.collector",
+    ]
+
+    getuiConf = [
+            GETUI_APP_ID      : "CVJaklfXkP9uVmlk7JujO",
+            GETUI_APP_KEY     : "SRxbtzJGKwA4VIRHubIGF2",
+            GETUI_APP_SECRET  : "8mjuGe0P6D7e1jbWLDRaG7",
+            GS_APPID          : "4jjydE78zk969ATyHjpqF7",
+            GT_INSTALL_CHANNEL: "APP_CHANNEL"
+    ]
+
+    supportVersion = "1.1.0"
+    retrofitVersion = "2.3.0"
+    nav_version = "2.3.0"
+
+    appDependencies = [
+            appcompat               : "androidx.appcompat:appcompat:${supportVersion}",
+            design                  : "com.google.android.material:material:${supportVersion}",
+            recyclerview            : "androidx.recyclerview:recyclerview:${supportVersion}",
+
+            packer_helper           : "com.mcxiaoke.gradle:packer-helper:1.0.8",
+            permission              : "com.yanzhenjie.permission:support:2.0.1",
+            recyclerhelper          : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30",
+            vlayout                 : "com.alibaba.android:vlayout:1.3.0@aar",
+            glide                   : "com.github.bumptech.glide:glide:4.11.0",
+            okio                    : "com.squareup.okio:okio:2.1.0",
+            eventbus                : "org.greenrobot:eventbus:3.0.0",
+            multidex                : "androidx.multidex:multidex:2.0.0+",
+            androidanimations       : "com.daimajia.androidanimations:library:2.2@aar",
+//            wechat                  : "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.4.0",
+            //rx系列与View生命周期同步
+            "rxlifecycle"           : "com.trello.rxlifecycle2:rxlifecycle:2.2.2",
+            "rxlifecycle-components": "com.trello.rxlifecycle2:rxlifecycle-components:2.2.2",
+            navigation_fragment     : "androidx.navigation:navigation-fragment:$nav_version",
+            navigation_ui           : "androidx.navigation:navigation-ui:$nav_version",
+            //Feature module Support
+            navigation_dynamic      : "androidx.navigation:navigation-dynamic-features-fragment:$nav_version",
+            //Testing Navigation
+//            navigation_testing      : "androidx.navigation:navigation-testing:$nav_version",
+            //scan
+            zxing_core              : "com.google.zxing:core:3.3.3",
+            zxing_android           : "com.journeyapps:zxing-android-embedded:3.6.0",
+            constraintlayout        : 'androidx.constraintlayout:constraintlayout:2.0.2'
+    ]
+
+    rxDependencies = [
+            retrofit          : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofit_gson     : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofit_adapter  : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            okhttp_interceptor: "com.squareup.okhttp3:logging-interceptor:3.8.1",
+            okhttp            : "com.squareup.okhttp3:okhttp:3.10.0",
+            disklrucache      : "com.jakewharton:disklrucache:2.0.2",
+            rxjava            : "io.reactivex.rxjava2:rxjava:2.1.12",
+            rxjava_android    : "io.reactivex.rxjava2:rxandroid:2.0.2",
+    ]
+
+
+    appAnnotation = [
+            eventbus_annotation: "org.greenrobot:eventbus-annotation-processor:3.1.1",
+            glide_annotation   : 'com.github.bumptech.glide:compiler:4.11.0'
+    ]
+
+
+}

@@ -1,2 +1,5 @@
 include ':app'
 rootProject.name = "Collector"
+include ':lib_api'
+include ':lib_common'
+include ':lib_library'

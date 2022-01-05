@@ -1,0 +1,62 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: "androidx.navigation.safeargs"
+
+def androidId = rootProject.ext.androidId
+def support = rootProject.ext.appDependencies
+def annotation = rootProject.ext.appAnnotation
+android {
+    compileSdkVersion androidId.compileSdkVersion
+    buildToolsVersion androidId.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion androidId.minSdkVersion
+        targetSdkVersion androidId.targetSdkVersion
+        versionCode androidId.versionCode
+        versionName androidId.versionName
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        multiDexEnabled true
+        buildConfigField("boolean", "isRelease", String.valueOf(isRelease))
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/res-business', 'src/main/res-platinum']
+        }
+    }
+
+    dataBinding { enabled true }
+    viewBinding { enabled true }
+}
+
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    api project(':lib_api')
+    support.each { k, v -> implementation v }
+    annotation.each { k, v -> annotationProcessor v }
+
+}
